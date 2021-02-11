@@ -1,0 +1,16 @@
+.card-body {
+  background-color: #ff7200;
+  color: antiquewhite;
+  border-radius: 20px;
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.am-card {
+    background-color: gray;
+  color: antiquewhite;
+  border: none;
+  border-radius: 0;
+}
