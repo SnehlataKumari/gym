@@ -1,0 +1,31 @@
+.my-list .spe .am-list-extra {
+  flex-basis: initial;
+}
+/* 
+.am-list-content {
+  color: #000;
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: left;
+    text-overflow: unset;
+    white-space: nowrap;
+    padding-top: 7px;
+    padding-bottom: 7px;
+} */
+
+.am-list-item .am-list-line .am-list-content {
+  color: #000;
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: left;
+    text-overflow: unset;
+    white-space: nowrap;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    flex: none;
+    /* display: "flow-root"; */
+}
+
+.am-list-item {
+  display: contents;
+}

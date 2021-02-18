@@ -7,14 +7,15 @@ import {
   LineSeries,
   Hint,
 } from "react-vis";
+import "./Graph.css";
 
 export default function Graph(props) {
   return (
-    <XYPlot width={300} height={150} >
-      <VerticalGridLines color={"white"}/>
-      <HorizontalGridLines color={"white"}/>
-      <XAxis color={"white"}/>
-      <YAxis color={'white'}/>
+    <XYPlot width={300} height={150} className="rv-xy-plot">
+      <VerticalGridLines color={"white"} />
+      <HorizontalGridLines color={"white"} />
+      <XAxis color={"white"} />
+      <YAxis color={"white"} />
       <LineSeries
         data={[
           { x: 0, y: 1 },
@@ -24,18 +25,13 @@ export default function Graph(props) {
         ]}
         color={"white"}
       />
-      <Hint color={'white'} value={{ x: 1, y: 10 }} />
+      <Hint color={"white"} className="rv-hint-title" value={{ x: 1, y: 10 }} />
       <Hint
+        className="rv-hint-title"
         value={{ x: 0.4, y: 14 }}
         horizontalAlign={Hint.ALIGN.RIGHT}
         verticalAlign={Hint.ALIGN.BOTTOM}
-      >
-        <div className="custom-hint">
-          This is a custom hint
-          <br />
-          for a non-existent value
-        </div>
-      </Hint>
+      ></Hint>
     </XYPlot>
   );
 }

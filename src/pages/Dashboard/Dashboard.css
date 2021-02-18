@@ -6,3 +6,8 @@
   border-radius: 5px;
   margin: 10px;
 }
+
+.graph-card {
+  background-color: grey;
+  height: 200px;
+}

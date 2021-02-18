@@ -1,0 +1,11 @@
+.rv-xy-plot {
+  width: 300px;
+    height: 200px;
+    background: orange;;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.rv-hint-title {
+  color: #fff;
+}

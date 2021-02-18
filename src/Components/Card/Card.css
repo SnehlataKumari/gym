@@ -1,16 +1,24 @@
 .card-body {
-  background-color: #ff7200;
   color: antiquewhite;
-  border-radius: 20px;
   margin: 10px;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 5px;
+  border-top: none;
 }
 
 .am-card {
-    background-color: gray;
   color: antiquewhite;
   border: none;
   border-radius: 0;
+  margin: 10px;
+}
+
+.am-card-header-content {
+  align-self: center;
+  color: #000;
+    display: flex;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: inherit;
 }
